@@ -10,6 +10,9 @@
   "author": "bron",
   "type": "module",
   "main": "index.js",
+  "bin": {
+  "calc": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npx eslint .",

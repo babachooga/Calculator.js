@@ -1,7 +1,8 @@
 PHONY:
 
 lint: #check linting errors by eslint
-npm run lint
-
+	npm run lint
 lint-fix: #fix linting errors by eslint
-npm run lint
+	npm run lint-fix
+install: #install dependencies
+	npm ci
